@@ -68,19 +68,40 @@
 	padding: 10px;
 }
 button {
-    cursor: pointer;
+	cursor: pointer;
 	width: 100%;
 	margin-top: 25px;
 	background: none;
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
-    padding: 10px;
-    border: solid 1px white;
-    transition: 0.15s;
+	color: white;
+	font-family: monospace;
+	font-size: 17px;
+	padding: 10px;
+	border: solid 1px white;
+	transition: 0.15s;
 }
 button:hover {
-    background: white;
-    border-color: black;
-    color: black;
+	background: white;
+	border-color: black;
+	color: black;
+}
+
+@media screen and (width <= 800px) {
+	.parent {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 75px 25px;
+	}
+	.panier {
+		width: 100%;
+	}
+	.article {
+		width: 100%;
+	}
+	.paiment {
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+		width: 100%;
+	}
 }

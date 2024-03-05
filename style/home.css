@@ -70,3 +70,26 @@ main .product .content div .cta img {
 main .product .content div .cta:hover img {
 	transform: rotate(180deg);
 }
+
+@media screen and (width <= 800px) {
+	main {
+		padding: 0;
+	}
+	main .product {
+		flex-flow: column nowrap;
+
+		width: 100%;
+	}
+	main .product:nth-child(odd) {
+		flex-flow: column nowrap;
+	}
+	main .product .content {
+		width: 95%;
+	}
+	main .product > img {
+		border-radius: 15px;
+		height: 200px;
+		object-fit: cover;
+		width: 100%;
+	}
+}
