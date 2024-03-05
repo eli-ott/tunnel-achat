@@ -1,43 +1,46 @@
-.panierimg {
-    width: 90px;
-}
-
 .parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 .panier {
-    display: flex;
-    margin-top: 5em;
-    margin-left: 50px;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 75%;
+	display: flex;
+	margin-top: 5em;
+	margin-left: 50px;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 75%;
 }
 
 .article {
-    display: flex;
-    margin-bottom: 15px;
-    gap: 15px;
-    width: 85%;
-    height: 75px;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: gray;
-    border: 1;
-    border-color: black;
-    border-radius: 10px;
+	display: flex;
+	margin-bottom: 15px;
+	gap: 15px;
+	width: 85%;
+	height: 75px;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: gray;
+	border: 1;
+	border-color: black;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.article img {
+	object-fit: cover;
+	height: 100%;
+	width: 100px;
 }
 .prix {
-    margin-left: auto;
+	margin-left: auto;
+    margin-right: 15px;
 }
 
 .paiment {
-    background-color: white;
-    margin: 5em;
-    width: 25%;
+	background-color: white;
+	margin: 5em;
+	width: 25%;
 }
