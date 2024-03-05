@@ -16,7 +16,7 @@ nav ul {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: enter;
 
 	list-style-type: none;
 	width: 25%;
