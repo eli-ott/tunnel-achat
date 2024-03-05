@@ -9,6 +9,9 @@ nav {
 
 	border-bottom: solid 1px grey;
 }
+nav > img {
+	height: 80px;
+}
 nav ul {
 	display: flex;
 	flex-flow: row nowrap;
