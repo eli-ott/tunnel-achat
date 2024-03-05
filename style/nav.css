@@ -7,7 +7,7 @@ nav {
 	padding: 15px;
 	width: 100%;
 
-    border-bottom: 1px black;
+	border-bottom: solid 1px grey;
 }
 nav ul {
 	display: flex;
@@ -21,15 +21,15 @@ nav ul {
 }
 nav ul li {
 	margin: 0 5%;
-    transition: 0.15s;
+	transition: 0.15s;
 }
 nav ul li:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 nav ul li a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 nav ul li a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
