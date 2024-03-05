@@ -1,14 +1,13 @@
 .parent {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: start;
+	padding: 150px 50px;
 	width: 100%;
 }
 
 .panier {
 	display: flex;
-	margin-top: 5em;
-	margin-left: 50px;
 	justify-content: center;
 	align-items: flex-start;
 	flex-direction: column;
@@ -23,7 +22,7 @@
 	height: 75px;
 	justify-content: flex-start;
 	align-items: center;
-	background-color:  rgba(90, 90, 90, 0.395);
+	background-color: rgba(90, 90, 90, 0.395);
 	border: 1;
 	border-color: black;
 	border-radius: 10px;
@@ -36,35 +35,52 @@
 }
 .prix {
 	margin-left: auto;
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 .recap {
-    display: inline;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+	display: inline;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
 }
 .span {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
 }
 .totalligne {
-    margin-left: auto;
+	margin-left: auto;
 }
 
 .total {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
 }
 .paiment {
-    background-color:  rgba(90, 90, 90, 0.395);
-    border-radius: 10px;
+	background-color: rgba(90, 90, 90, 0.395);
+	border-radius: 10px;
 	margin: 0;
 	width: 25%;
-    margin-right: 50px;
+	margin-right: 50px;
+	padding: 10px;
+}
+button {
+    cursor: pointer;
+	width: 100%;
+	margin-top: 25px;
+	background: none;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
     padding: 10px;
+    border: solid 1px white;
+    transition: 0.15s;
+}
+button:hover {
+    background: white;
+    border-color: black;
+    color: black;
 }
