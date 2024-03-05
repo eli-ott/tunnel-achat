@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/main.css">
-    <link rel="stylesheet" href="../style/main.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style/main.css" />
+		<link rel="stylesheet" href="../style/nav.css" />
+		<link rel="stylesheet" href="../style/form.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<a href="/index.html" title="logo"><img src="../assets/logo.png" alt="logo" /></a>
+			<ul>
+				<li>
+					<a href="/index.html" title="accueil">Accueil</a>
+				</li>
+				<li>
+					<a href="/pages/panier.html" title="panier">
+						<img src="../assets/cart.svg" alt="panier" />
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<section class="formulaire">
+			<form action="#">
+				<label for="carte">Numéro de carte</label>
+				<input type="number" name="carte" placeholder="Numéro de carte" />
+				<label for="expiration">Date d'éxpiration</label>
+				<input type="text" name="expiration" placeholder="Date d'expiration" />
+                <label for="ccv">CCV</label>
+				<input type="number" name="ccv" placeholder="CCV" />
+                <label for="nom">Votre nom</label>
+				<input type="text" name="nom" placeholder="Nom" />
+				<button type="submit">Valider le paiement</button>
+			</form>
+		</section>
+	</body>
 </html>
