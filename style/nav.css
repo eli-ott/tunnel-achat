@@ -9,7 +9,7 @@ nav {
 
 	border-bottom: solid 1px grey;
 }
-nav > img {
+.logo {
 	height: 80px;
 }
 nav ul {
