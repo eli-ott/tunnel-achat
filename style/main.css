@@ -13,3 +13,25 @@ body {
 a {
 	outline: none;
 }
+
+footer {
+	background-color:  rgba(90, 90, 90, 0.395);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.foot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+.ct {
+	padding-bottom: 20px;
+}
+
+.info {
+	line-height: 50px;
+}
