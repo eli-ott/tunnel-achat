@@ -39,8 +39,31 @@
     margin-right: 15px;
 }
 
+.recap {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.span {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.totalligne {
+    margin-left: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
 .paiment {
-	background-color: white;
-	margin: 5em;
+    background-color: rgb(88, 89, 90);
+    border-radius: 10px;
+	margin: 0;
 	width: 25%;
+    margin-right: 50px;
 }
