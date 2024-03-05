@@ -23,7 +23,7 @@
 	height: 75px;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: gray;
+	background-color:  rgba(90, 90, 90, 0.395);
 	border: 1;
 	border-color: black;
 	border-radius: 10px;
@@ -61,9 +61,10 @@
     margin-top: 10px;
 }
 .paiment {
-    background-color: rgb(88, 89, 90);
+    background-color:  rgba(90, 90, 90, 0.395);
     border-radius: 10px;
 	margin: 0;
 	width: 25%;
     margin-right: 50px;
+    padding: 10px;
 }
